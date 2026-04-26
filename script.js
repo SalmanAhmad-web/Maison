@@ -1,4 +1,4 @@
-fetch("https://salmanahmad-arch.github.io/maison/navbar.html")
+fetch("/navbar.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("navbar-container").innerHTML = data;
@@ -22,7 +22,7 @@ fetch("https://salmanahmad-arch.github.io/maison/navbar.html")
     updateCartBadge();
   });
 
-fetch("https://salmanahmad-arch.github.io/maison/footer.html")
+fetch("/footer.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("footer-container").innerHTML = data;

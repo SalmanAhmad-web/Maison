@@ -1,4 +1,4 @@
-fetch("https://salmanahmad-web.github.io/Maison/navbar.html")
+fetch("./navbar.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("navbar-container").innerHTML = data;

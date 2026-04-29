@@ -22,7 +22,7 @@ fetch("./navbar.html")
     updateCartBadge();
   });
 
-fetch("https://salmanahmad-web.github.io/Maison/footer.html")
+fetch("./footer.html")
   .then(response => response.text())
   .then(data => {
     document.getElementById("footer-container").innerHTML = data;

@@ -4,7 +4,7 @@ fetch("./navbar.html")
     document.getElementById("navbar-container").innerHTML = data;
       const menu = document.getElementById("sideMenu");
     const hamburger = document.querySelector(".hamburg"); // navbar me icon
-    const closeBtn = document.querySelector(".side-head i"); // close icon inside menu
+    const closeBtn = document.querySelector(".close-menu"); // close icon inside menu
 
     if(hamburger && menu && closeBtn) {
       hamburger.addEventListener("click", () => {
